@@ -1,4 +1,4 @@
-let randNum = 0;
+let randNum;
 
 $("button").click(function(){
   let userInput = $("input").val();
@@ -6,12 +6,12 @@ $("button").click(function(){
   randNum = Math.floor(Math.random()*3);
     $(".computerChoice").text(randNum);
 //if(randNum = 0){
-//  $(".computerChoice").text("rock");
+  $(".computerChoice").text("rock");
 //}
 //else if(randNum = 1){
-//  $(".computerChoice").text("paper");
+  $(".computerChoice").text("paper");
 //}
 //else{
-//  $(".computerChoice").text("scissors");
+  $(".computerChoice").text("scissors");
 //};
 });
